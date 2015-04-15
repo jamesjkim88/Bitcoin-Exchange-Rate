@@ -1,0 +1,260 @@
+/*********
+UNIVERSAL
+*********/
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body{
+	font-size: 1em;
+	font-family: "roboto", "lato", "ubuntu", sans-serif;
+	margin: 0;
+}
+
+li{
+	list-style: none;
+	font-family: "lato";
+}
+
+a{
+	color: royalblue;
+	text-decoration: none;
+}
+
+h1{
+	font-family: "ubuntu";
+}
+
+p{
+	font-family: "roboto";
+}
+
+footer{
+	text-align: center;
+}
+/*********
+#CONTAINER
+*********/
+
+.container{
+	margin: 0 auto;
+	width: 100%;
+}
+
+/*********
+HEADER
+*********/
+
+.header{
+	height: 75px;
+	width: 100%;
+}
+
+.slideInLeft{
+	float: left;
+	font-size: 18px;
+	list-style: none;
+	margin-left: 25px;
+	margin-right: 55px;
+	margin-top: 25px;
+}
+
+#logo{
+	margin-left: 6px;
+	margin-top: 12px;
+	width: 55%;
+}
+
+.logo{
+	float: left;
+}
+
+.nav{
+	float:right;
+}
+
+/*********
+ABOUT
+*********/
+
+#about-h1{
+	margin-bottom: 10px;
+}
+
+#about{
+	background-image: url("http://classes.slis.lsu.edu/wu/7008/su13/spic/website/background.jpg");
+	font-family: georgia;
+	padding-bottom: 7.5%;
+	padding-top: 1.5%;
+	text-align: center;
+}
+
+.aboutpar{
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+.icon-li{
+	display: inline-block;
+	margin-left: 1%;
+	margin-right: 5%;
+	margin-top: 50px;
+}
+
+/*********
+EXCHANGE
+*********/
+
+#exchange{
+	background-image: url("https://s-media-cache-ak0.pinimg.com/originals/15/31/81/15318156d4702c7bbac7205bc365bc57.jpg");
+	font-family: georgia;
+	padding-bottom: 15%;
+	padding-top: 1.5%;
+	text-align: center;
+}
+
+#form-content{
+	background: rgba(100,100,100,0.1);
+	border: 2px solid lightgray;
+	border-radius: 10px;
+	padding-bottom: 50px;
+	margin-left: 38%;
+	margin-right: 38%;
+	margin-top: 10px;
+}
+
+#convertpara, #error_0{
+	background: rgba(255,255,255,0.1);
+	border-radius: 5px;
+	box-shadow: 5px 5px 2.5px #888888;
+	font-family: Arial;
+	font-size: 1.5em;
+	margin-left: 15%;
+	margin-right: 15%;
+	padding: 5px 5px;
+}
+
+#error_0{
+	font-size: 1.25em;
+}
+
+form{
+	margin-top: 15px;
+}
+
+select, #input,#submit {
+  background: rgba(255,255,255,0.1);
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  background-color: #e8eeef;
+  color: black;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+select, #input, #submit {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+select{
+	outline: none;
+	border: none;
+	border-radius: 0px;
+	cursor: pointer;
+}
+
+#form{
+	border-radius: 2px;
+}
+
+
+/*********
+MEDIA QUERIES
+*********/
+
+@media (max-width: 1440px){
+	.aboutpar{
+		margin-left: 15%;
+		margin-right: 15%;
+	} /* end of .aboutpar */
+	#form-content{
+		margin-left: 30%;
+		margin-right: 30%;
+	}
+}
+
+@media (max-width: 1080px){
+	.slideInLeft{
+		margin-left: 45px;
+		margin-right: 5px;
+		margin-top: 25px;
+	}
+	.icon-li{
+		margin-right: 8%;
+	}
+
+}
+
+@media (max-height: 600px){
+	.aboutpar{
+		font-size: 14px;
+	}
+	.icon-li{
+		font-size: 14px;
+	}
+	#logo{
+		width: 48%;
+	}
+	.slideInLeft{
+		font-size: 16px;
+	}
+	select, #input, #submit {
+		height: 28px;
+		padding: 4px;
+		
+	}
+	#submit{
+		font-size: 14px;
+	}
+	#convertpara{
+		font-size: 1.25em;
+	}
+}
+
+@media (max-width: 480px){
+	.nav{
+		display: none;
+	}
+	.icon-li{
+		display: none;
+	}
+	#form-content{
+	font-size: 12px;
+	margin-left: 15%;
+	margin-right: 15%;
+	}
+	#input, #submit{
+		font-size: 12px
+	}
+	h1{
+		font-size: 24px
+	}
+	#logo{
+		margin-left: 22%;
+		margin-top: 8px;
+		width: 50%;
+	}
+	.header{
+		height: 60px;
+	}
+
+}
+
+

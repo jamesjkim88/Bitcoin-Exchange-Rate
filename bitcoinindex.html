@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bitcoin Exchange</title>
+		<link href='http://fonts.googleapis.com/css?family=Lato|Ubuntu:400,500,700,700italic|Roboto:500,900,700,400' rel='stylesheet' type='text/css'>
+		<link rel = "stylesheet" type = "text/css" href = "https://c47f0bba836e5532cc64a7987122d5688067096b.googledrive.com/host/0B5Xvkw1CYSC5OUwwQXBjbkhmOUk">
+		<link rel = "stylesheet" type = "text/css" href = "bitcoindesign.css">
+		<meta name = "viewport" content = "width=device-width">
+	</head>
+	<body>
+		<!-- start of header -->
+		<div class = "container">
+			<div class = "header">
+				<div class = "logo">
+					<h1 id = "hilogo"><a href="bitcoinindex.html"><img class = "slideInLeft animated" id = "logo" src = "bitcoin-vector-logo.png"></a></h1>
+				</div>
+				<div class = "nav">
+					<ul>
+						<li class = "slideInLeft animated"><a href = "bitcoinindex.html">Home</a></li>
+						<li class = "slideInLeft animated"><a href = "https://bitcoin.org/en/">About</a></li>
+						<li class = "slideInLeft animated"><a id = "inputfocus" href = "#input">Exchange</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- end of header -->
+		<!-- break -->
+		<!-- start of about content -->
+		<div class = "container">
+			<div id = "about">
+				<div id = "about-h1">
+					<h1>About</h1>
+				</div>
+				<div class = "para" id = "para_1">
+					<p id = "firstpar" class = "aboutpar">Bitcoin is an innovative payment network and a new kind of money.</p>
+				</div>
+				<br/>
+				<div class = "para" id = "para_2">
+					<p id = "secondpar" class = "aboutpar">Bitcoin uses peer-to-peer technology to operate with no central authority or banks; managing transactions and the issuing of bitcoins is carried out collectively by the network. Bitcoin is open-source; its design is public, nobody owns or controls Bitcoin and everyone can take part. Through many of its unique properties, Bitcoin allows exciting uses that could not be covered by any previous payment system.</p>
+				</div>
+				<div id = "icon-list">
+					<ul id = "icons">
+						<li class = "icon-li"><img src = "main_ico_instant.svg" class = "aboutPics"><p>Instant peer-to-peer <br/> transactions</p></li>
+						<li class = "icon-li"><img src = "main_ico_worldwide.svg"class = "aboutPics"><p>Make payments around <br/> the world</p></li>
+						<li class = "icon-li"><img src = "main_ico_lowfee.svg"class = "aboutPics"><p>Zero or low <br/> fee processing</p></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- end of about content -->
+		<!-- break -->
+		<!-- start of convert content -->
+		<div class = "container" id = "convert-cont">
+			<div id ="exchange">
+				<div id = "convert-h1">
+					<h1>Exchange</h1>
+				</div>
+			<div id = "form-content">
+				<form>
+					<input type = "search" placeholder = "Bitcoin" name = "search" class = "box" id = "input" autocomplete = "off">
+					<select id = "currSelect">
+						<lable>Please select Currency</lable>
+						<option value="AUD">Australian Dollar</option>
+						<option value="GBP">British Pound</option>
+						<option value="BRL">Brazilian Real</option>
+						<option value="CAD">Canadian Dollar</option>
+						<option value="EUR">Euro</option>
+						<option value="JPY">Japanese Yen</option>
+						<option value="SGD">Singapore Dollar</option>
+						<option value="KRW">South Korean Won</option>
+						<option value="CHF">Swiss Franc</option>
+						<option value="THB">Thai Baht</option>
+						<option value="USD">US Dollar</option>
+					</select> 	
+					<input type="submit" value="Search" id="submit">
+				</form>
+			<div id = "converted">
+				<!-- jquery will print this content -->
+			</div>
+			</div> <!--end of #form-content -->    
+			</div>
+		</div>
+<!-- end of convert content -->
+<!-- break -->
+<!-- start of footer -->
+		<footer id = "main-footer">
+    	<p>&copy 2015 BTCExRate.com</p>
+    </footer>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="bitcoinJS.js"></script>
+</body>
+
+
+<!-- Save for AlphaV.01
+<select id = "currSelect">
+	<option value="AUD">Please select Currency</option>
+	<option value="AUD">Australian Dollar</option>
+	<option value="GBP">British Pound</option>
+	<option value="BRL">Brazilian Real</option>
+	<option value="CAD">Canadian Dollar</option>
+	<option value="EUR">Euro</option>
+	<option value="JPY">Japanese Yen</option>
+	<option value="SGD">Singapore Dollar</option>
+	<option value="KRW">South Korean Won</option>
+	<option value="CHF">Swiss Franc</option>
+	<option value="THB">Thai Baht</option>
+	<option value="USD">US Dollar</option>
+</select> 	
+
+ -->
+
+ 
